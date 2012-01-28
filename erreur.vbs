@@ -1,0 +1,1 @@
+MsgBox "Veuillez tout d'abord saisir votre identifiant et votre mot de passe de l'interface d'administration de votre neufbox dans les options de ce gadget." &vbNewLine&vbNewLine& "Par défaut, l'identifiant est admin et le mot de passe est le code WiFi (WPA-PSK) se trouvant sous votre neufbox.",48,"NeufBox 4 Reboot"

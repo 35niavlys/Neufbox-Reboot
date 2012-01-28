@@ -1,0 +1,18 @@
+<html>
+<head>
+	<title>Flyout</title>
+	<link href="css/flyout.css" rel="stylesheet" type="text/css" />
+	<script language="JavaScript" src="js/NB4.js" type="text/javascript"></script>
+	<script type="text/vbscript" language="vbscript" src="js/gadget.vbs"></script>
+</head>
+
+<body onload="taille();IP()">
+	<g:background class="box" style="position:absolute;top:0;left:0;width:130px;height:67px;" id="box" src="Images/Flyout.png"/>
+<div id="ip_externe" onClick="site()" style="cursor:hand;" style="position:absolute;top:1;"></div>
+	<div style="position: absolute; top: 15px;" style="cursor: auto;">
+		<br><h3 style="font-weight: bold; left: 12px; color: white; position: absolute; top: 5px;"> Changer IP ?</h3><br>
+		<span><a href="javascript:Change_ip();" onfocus="this.blur();" style="left: 25px; position: absolute; top: 32px; font-weight: bold;">Oui</a></span>    
+		<span><a href="javascript:Clic();" onfocus="this.blur();" style="left: 80px; position: absolute; top: 32px; font-weight: bold;">Non</a></span>
+	</div>
+</body>
+</html>

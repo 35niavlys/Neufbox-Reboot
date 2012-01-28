@@ -1,0 +1,16 @@
+<html>
+<head>
+	<script src="js/NB4.js" language="JavaScript"></script>
+	<link href="css/flyout.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body onload="taille();displayTheme()">
+	<g:background id="imgBackground" style="cursor:hand; position:absolute;top:0;left:0;width:130px;height:67px;" onClick="Clic()" />
+</body>
+
+<script>
+	System.Gadget.settingsUI = "settings.html";
+	System.Gadget.onSettingsClosed = displayTheme;
+</script>
+
+</html>

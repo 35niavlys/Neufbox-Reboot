@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<gadget>
+	<name>Neufbox Reboot</name>
+	<version>12.01.08</version>
+	<author name="35niavlys">
+		<info url="http://nbreboot.sylvainmenu.com/" />
+	</author>
+	<copyright>© 2012</copyright>
+	<description>Ce gadget destiné pour la neufbox 4 et 6 permet de changer son IP rapidement.
+	
+	Ce gadget ne fonctionne pas si vous n'avez pas une adresse IP dynamique.</description>
+	<icons>
+		<icon height="48" width="48" src="images/xml.png" />
+	</icons>
+	<hosts>
+		<host name="sidebar">
+			<base type="HTML" apiVersion="1.0.0" src="NB4.html" />
+			<permissions>Full</permissions>
+			<platform minPlatformVersion="1.0" />
+		</host>
+	</hosts>
+</gadget>
